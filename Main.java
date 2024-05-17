@@ -18,8 +18,7 @@ public class Main{
             System.out.println(playerName + ", you rolled a " + x);
             System.out.println("Your total score is: " + totalScore);
 
-            // Ask if the player wants to roll again
-            System.out.print("Do you want to roll again? (yes/no): ");
+             System.out.print("Do you want to roll again? (yes/no): ");
             choice = scanner.nextLine();
         } while (choice.equalsIgnoreCase("yes"));
 
